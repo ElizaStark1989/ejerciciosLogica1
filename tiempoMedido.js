@@ -1,9 +1,9 @@
 
 const prompt = require("prompt-sync")();
 
- let horas = Number(prompt("Ingrese las horas: "))
-    let minutos = Number(prompt("Ingrese los minutos: "))
-    let distancia= Number(prompt("Ingresa la distancia en kilometros: "))
+let horas = Number(prompt("Ingrese las horas: "))
+let minutos = Number(prompt("Ingrese los minutos: "))
+let distancia= Number(prompt("Ingresa la distancia en kilometros: "))
 
 function calcularTiempoMedio(horas, minutos, distancia){
     
